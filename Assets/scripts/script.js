@@ -180,13 +180,13 @@ forms.children[3].children[3].setAttribute("class","custom-control custom-radio 
 forms.children[3].children[3].appendChild(document.createElement("input"))
 forms.children[3].children[3].children[0].setAttribute("type","radio")
 forms.children[3].children[3].children[0].setAttribute("class","custom-control-input")
-forms.children[3].children[3].children[0].setAttribute("id","customRadio2")
+forms.children[3].children[3].children[0].setAttribute("id","customRadio3")
 forms.children[3].children[3].children[0].setAttribute("name","gender")
 forms.children[3].children[3].children[0].setAttribute("Value","Other")
 forms.children[3].children[3].children[0].setAttribute("required","")
 forms.children[3].children[3].appendChild(document.createElement("label"))
 forms.children[3].children[3].children[1].setAttribute("class","custom-control-label")
-forms.children[3].children[3].children[1].setAttribute("for","customRadio2")
+forms.children[3].children[3].children[1].setAttribute("for","customRadio3")
 forms.children[3].children[3].children[1].innerText="Other"
 
 forms.appendChild(document.createElement("div"))
